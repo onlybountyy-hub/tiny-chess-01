@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/tiny-chess-01/onlybountyy-hub/tiny-chess-01/rank.svg)](https://make.fun/bounty/tiny-chess-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
 [![reward](https://make.fun/badge/tiny-chess-01/onlybountyy-hub/tiny-chess-01/reward.svg)](https://make.fun/bounty/tiny-chess-01?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
 
-A complete chess engine in 3,944 bytes of Python (stdlib only): negamax search with PVS, transposition table with bound flags, null-move pruning, late-move reductions, check extensions and quiescence search, driven by a fixed 50,000-node budget so every move is deterministic. Local practice trials in the official kit environment estimate it at about 1,410 Elo.
+A complete chess engine in 4,012 bytes of Python (stdlib only): negamax search with PVS, transposition table with bound flags, null-move pruning, late-move reductions, check extensions, quiescence search and a butterfly history heuristic for quiet-move ordering, driven by a fixed 100,000-node budget so every move is deterministic. Developed from the fix3 entry (official practice Elo 1809); in 160 local gauntlet games against fix3 and the house baseline it measured a small, not statistically resolved improvement of roughly +35–40 Elo.
 
 ## Run it
 
